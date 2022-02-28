@@ -1,7 +1,7 @@
 /* css file  */
 body{
 	font-family: Verdana, "Ariel Narrow", sans-serif;
-	background-color: #6EFF96;
+	background-color: #A5F0C5;
 	margin-left:10%;
 	margin-right:10%;
 	
@@ -12,23 +12,50 @@ h1{
 	
 }
 
+h2{
+	font-family: "Lucida Console", fantasty;
+	font-weight: bold;
+	background-color: #00917C;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+p{
+	
+	text-indent: 10%;
+	
+}
+
+#flavourtext{
+	font-size: 20px;
+	font-family: "Lucida Console", fantasty;
+	background-color: #184D47;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	border: 10px dotted white;
+	
+}
 .header{
 	
 	margin-bottom: 5%;
-	background: #13E094;
+	background: #00917C;
 	color:white;
 	font-size:20px;
 	text-align: center;
 	border: 10px double white;
+	padding: 20px;
 }
 
-#circle{
+#circleInHeader{
 	border-radius:50%;
 }
 
 .topnav {
-  background-color: #105935;
+  background-color: #184D47;
   overflow: hidden;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -43,19 +70,32 @@ h1{
 
 /* change the color on hover*/
 .topnav a:hover {
-  background-color: #4EEB9C;
+  background-color: #A5F0C5;
   color: black;
 }
 
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #00917C;
   color: white;
 }
 
 footer{
-	background-color: #105935;
+	background-color: #184D47;
 	margin-top: 10%;
 	padding: 10px;
 	
 }
+
+#noindent{
+	text-indent: 0;
+}
+
+#paragraphimage{
+	float : right;
+	
+	max-width: 150px;
+	border-radius: 50%;
+	
+}
+
