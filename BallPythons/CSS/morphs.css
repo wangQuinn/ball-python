@@ -19,6 +19,7 @@
   
 }
 
+/* overlay of the text */
 .overlay {
   position: absolute;
   top: 0;
@@ -37,6 +38,7 @@
   opacity: 1;
 }
 
+/* text formatting shown on hover */
 .text {
   color: white;
   font-size: 10px;
@@ -59,6 +61,7 @@ p{
 	border: 5px dotted white;
 }
 
+/* centering list */
 ul{
 	display:flex;
 	justify-content: center;
