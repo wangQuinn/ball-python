@@ -91,6 +91,7 @@ footer{
 	text-indent: 0;
 }
 
+/* image float with text, shown on home page in first section */
 #paragraphimage{
 	float : right;
 	
